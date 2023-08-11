@@ -12,6 +12,7 @@ import Home from "./components/pages/home";
 import Docs from "./components/pages/docs";
 import Structure from "./components/pages/struktur";
 import Gallery from "./components/pages/gallery";
+import Sembako from "./components/pages/sembako";
 import Error from "./components/pages/error";
 import About from "./components/pages/about";
 import Contact from "./components/pages/contact";
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/visi-misi" element={<Docs />} />
         <Route path="/structure" element={<Structure />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/sembako" element={<Sembako />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/error" element={<Error />} />

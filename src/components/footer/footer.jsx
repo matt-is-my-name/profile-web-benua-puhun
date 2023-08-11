@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <div className="bg-opacity-70 bg-black cursor-default bottom-0 pt-5">
+      <div className="bg-opacity-60 bg-black cursor-default bottom-0 pt-5">
         <div className="h-full flex flex-col items-center gap-y-3 md:items-start md:flex-row justify-evenly p-12">
           <div className="alamat w-1/4 gapy-1">
             <h3 className="text-white w-fit text-lg">
@@ -68,7 +68,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="w-full bg-gray-900 flex flex-row justify-between items-center">
+        <div className="w-full bg-gray-800 flex flex-row justify-between items-center">
           <div className="py-3 px-5 text-white cursor-default text-sm">
             © Copyright 2023, Desa Benua Puhun. All Rights Reserved
           </div>

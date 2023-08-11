@@ -8,7 +8,7 @@ const Header = () => {
           <div className="italic uppercase text-lg basis-1/4">
             <Link to="/">
               <span className="font-extrabold text-white">Benua </span>
-              <span className="font-extralight text-blue-400">Puhun</span>
+              <span className="font-extrabold text-white">Puhun</span>
             </Link>
           </div>
 
@@ -21,6 +21,9 @@ const Header = () => {
             </Link>
             <Link className="hover:underline" to="/gallery">
               gallery
+            </Link>
+            <Link className="hover:underline" to="/sembako">
+              sembako
             </Link>
             <Link className="hover:underline" to="/about">
               about

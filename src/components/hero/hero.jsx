@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <div className="flex flex-1 mt-52 text-white h-[500px] ">
@@ -9,12 +11,12 @@ function Hero() {
           Muara Kaman, Kutai Kartanegara
         </p>
         <button>
-          <a
-            href="/visi-misi"
-            className="px-5 py-2 inline-block bg-cyan-500 text-white hover:bg-cyan-400 transition-colors mt-5 rounded-lg md:mt-10"
+          <Link
+            to="/visi-misi"
+            className="px-5 py-2 inline-block bg-green-500 text-white hover:bg-green-600 transition-colors mt-5 rounded-lg md:mt-10"
           >
             Get Started
-          </a>
+          </Link>
         </button>
       </div>
     </div>
